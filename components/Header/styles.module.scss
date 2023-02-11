@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.header__container{
+    background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=2000&q=60");
+
+    margin:auto !important;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+.image{
+    
+    display: block;
+    margin: 0 auto;
+    
+}
+.main__heading{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: 'Pacifico', cursive;;
+    padding-bottom: 200px;
+
+    
+}
+@media screen and (max-width: 866px){
+    .main__heading{
+        font-size: 60px;
+    }
+}
